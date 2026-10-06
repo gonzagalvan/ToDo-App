@@ -30,6 +30,7 @@ Ejecutar:
 ```bash
 npm test
 ```
+<img width="412" height="296" alt="image" src="https://github.com/user-attachments/assets/81a04dae-aa0f-46c9-9d79-4d070e6884b7" />
 
 Incluye tests de componentes (`TaskItem`, `AppButton`) y de lógica (validaciones y `authService`).
 
