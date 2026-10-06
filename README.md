@@ -1,4 +1,4 @@
-# Mi To-Do — Parcial 1 Aplicaciones Móviles
+# Mi ToDo — Parcial 1 Aplicaciones Móviles
 
 ## Opción elegida
 ✅ **Gestor de tareas** (React Native + Expo + TypeScript).

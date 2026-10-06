@@ -41,7 +41,7 @@ export default function LoginScreen({ navigation }: Props) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Mi To-Do</Text>
+            <Text style={styles.title}>Mi ToDo</Text>
             <Text style={styles.subtitle}>
                 Iniciá sesión para administrar tus tareas
             </Text>
