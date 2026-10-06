@@ -7,7 +7,7 @@
 
 Requisitos: Node.js y la app **Expo Go** instalada en el celular (o un emulador Android).
 
-​```git
+​```
 npm install
 npx expo start
 ​```
