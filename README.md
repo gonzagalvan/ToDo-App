@@ -5,14 +5,16 @@
 
 ## Cómo ejecutar la app
 
-```bash
-npm install
-npx expo run:android      # build de desarrollo en el celular/emulador (usa expo-dev-client)
-# o, si ya tenés el development build instalado:
-npx expo start --dev-client
-```
+Requisitos: Node.js y la app **Expo Go** instalada en el celular (o un emulador Android).
 
-> Las notificaciones requieren un *development build*; no funcionan en Expo Go (SDK 53+).
+​```bash
+npm install
+npx expo start
+​```
+
+Escaneá el código QR con Expo Go. Si el proyecto abre en modo "development build" en lugar de Expo Go, presioná `s` en la terminal para cambiar a Expo Go.
+
+> Las notificaciones locales piden permiso la primera vez: aceptalo para que se muestren.
 
 ## Tests
 
@@ -42,4 +44,4 @@ Incluye tests de componentes (`TaskItem`, `AppButton`) y de lógica (validacione
 - **useEffect**: restaurar sesión (`AuthContext`), inicializar permisos/canal de notificaciones (`App`) y limpiar errores de formulario al escribir.
 
 ## Video DEMO
-Link del video:
+Link del video: https://www.youtube.com/shorts/hXRrEn0RV4g
