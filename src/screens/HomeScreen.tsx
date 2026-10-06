@@ -78,7 +78,7 @@ export default function HomeScreen({ navigation }: Props) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>¡Bienvenido a Mi To-Do!</Text>
+      <Text style={styles.title}>¡Bienvenido a ToDo App!</Text>
       <Text style={styles.greeting}>Hola, {user?.username ?? 'usuario'}</Text>
 
       <AppButton
