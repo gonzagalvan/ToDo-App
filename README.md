@@ -39,7 +39,7 @@ Incluye tests de componentes (`TaskItem`, `AppButton`) y de lógica (validacione
 - **Sesión persistente**: al abrir la app se restaura la sesión; sin sesión no se puede acceder a Home ni a crear tareas.
 - **Navegación** con React Navigation (Stack): Login, Registro, Home y Alta de tarea.
 - **Tareas**: crear (título + fecha/hora de vencimiento opcional), listar, marcar como completada y eliminar. Se guardan en AsyncStorage y se mantienen al cerrar la app.
-- **Notificaciones locales**: aviso a los 10 segundos al crear una tarea y aviso a la fecha/hora de vencimiento; se cancelan al eliminar o completar la tarea. Botón "Probar notificación" en Home.
+- **Notificaciones locales**: aviso inmediato al crear una tarea y aviso a la fecha/hora de vencimiento; se cancelan al eliminar o completar la tarea.
 - **Componentes básicos de RN** (`View`, `Text`, `TextInput`, `TouchableOpacity`) con `StyleSheet`, y componentes reutilizables (`AppButton`, `FormInput`, `TaskItem`).
 - **useEffect**: restaurar sesión (`AuthContext`), inicializar permisos/canal de notificaciones (`App`) y limpiar errores de formulario al escribir.
 
